@@ -1,0 +1,335 @@
+/* section-1 */
+
+.first-image{
+  position: relative;
+  align-items: center;
+  
+
+}
+
+.first-image img{
+  width: 100%;
+  height: 624px;
+  object-fit: cover;
+}
+
+.first-image-text{
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+.first-image-text h1{
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 50px;
+  text-decoration: none;
+
+}
+
+.first-image-text h2{
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 200;
+  font-size: 25px;
+  text-decoration: none;
+
+}
+
+.first-image-text h3{
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-top: 2px;
+  font-weight: 100;
+  font-size: 18px;
+  color: #2997ff;
+  display: flex;
+  flex-direction: row;
+  row-gap: 10px;
+  justify-content: space-between;
+  letter-spacing: inherit;
+  
+
+}
+
+.first-image-text h3 p{
+  row-gap: 10px;
+}
+
+.first-image-text h3 p:hover{
+  text-decoration: underline;
+}
+
+/* section-2 */
+
+
+.second-image{
+  position: relative;
+  align-items: center;
+  
+
+}
+
+.second-image img{
+  width: 100%;
+  height: 624px;
+  object-fit: cover;
+}
+
+.second-image-text{
+  position: absolute;
+  
+  top: 10px;
+  left: 38%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+.second-image-text h1{
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 50px;
+  text-decoration: none;
+
+}
+
+.second-image-text h2{
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 200;
+  font-size: 30px;
+  text-decoration: none;
+
+}
+
+.second-image-text h3{
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 200;
+  font-size: 30px;
+  text-decoration: none;
+
+}
+
+.second-image-text h4{
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-top: 2px;
+  font-weight: 100;
+  font-size: 18px;
+  color: #2997ff;
+  display: flex;
+  flex-direction: row;
+  row-gap: 10px;
+  justify-content: space-between;
+  letter-spacing: inherit;
+  
+
+}
+
+.second-image-text h4 p{
+  row-gap: 10px;
+}
+
+.second-image-text h4 p:hover{
+  text-decoration: underline;
+}
+
+
+/* section-3 */
+
+.third-image{
+  position: relative;
+  align-items: center;
+  
+  
+
+}
+
+.third-image img{
+  width: 100%;
+  height: 624px;
+  object-fit: cover;
+}
+
+.third-image-text{
+  position: absolute;
+  color: white;
+  top: 10px;
+  left: 43%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+.third-image-text h1{
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 50px;
+  text-decoration: none;
+
+}
+
+.third-image-text h2{
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: red;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 200;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+.third-image-text h3{
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 200;
+  font-size: 25px;
+  text-decoration: none;
+
+}
+
+.third-image-text h4{
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-top: 2px;
+  font-weight: 100;
+  font-size: 18px;
+  color: #2997ff;
+  display: flex;
+  flex-direction: row;
+  row-gap: 10px;
+  justify-content: space-between;
+  letter-spacing: inherit;
+  
+
+}
+
+.third-image-text h4 p{
+  row-gap: 10px;
+}
+
+.third-image-text h4 p:hover{
+  text-decoration: underline;
+}
+
+/* section-4  */
+
+.grid-image{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+}
+
+.ipad-image,
+.macbook-image
+{
+  position: relative;
+  align-items: center;
+  
+
+}
+
+.ipad-image img,
+.macbook-image img
+{
+  width: 100%;
+  height: 624px;
+  object-fit: cover;
+}
+
+.ipad-image-text
+{
+  position: absolute;
+  color: rgb(0, 0, 0);
+  top: 0;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+.ipad-image-text h1,
+.macbook-image-text h1{
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 50px;
+  text-decoration: none;
+
+}
+
+.ipad-image-text h2,
+.macbook-image-text h2{
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin: 0 0 0 0;
+  font-weight: 200;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+.ipad-image-text h3,
+.macbook-image-text h3{
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-top: 0;
+  font-weight: 100;
+  font-size: 18px;
+  color: #2997ff;
+  display: flex;
+  flex-direction: row;
+  row-gap: 10px;
+  justify-content: space-between;
+  letter-spacing: inherit;
+  
+
+}
+
+.ipad-image-text h3 p,
+.macbook-image-text h3 p{
+  row-gap: 10px;
+}
+
+.ipad-image-text h3 p,
+.macbook-image-text h3 p:hover{
+  text-decoration: underline;
+}
+
+.macbook-image-text
+{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 0;
+  left: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+.ultra{
+  color: orange;
+  font-weight: 400;
+}
+
+
+
